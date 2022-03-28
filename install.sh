@@ -792,7 +792,7 @@ function wa_bi() {
   pu=publicip
   sed -i "s/public-ip/${pu}/g" ${iptext}
   text1="ssh -i /data/smithao  -o StrictHostKeyChecking=no ubuntu@"
-  text2=\""wget -N --no-check-certificate -q -O mlb.sh https://raw.githubusercontent.com/gcp5678/smithmlo/main/mlb.sh && chmod +x mlb.sh && ./mlb.sh\""
+  text2=\""wget -N --no-check-certificate -q -O mlb.sh https://raw.githubusercontent.com/gcp5678/smithmlo/main/mlb.sh && chmod +x mlb.sh && ./mlb.sh && sudo mv mlb.sh /etc/init.d/ && cd /etc/init.d/ && sudo update-rc.d mlb.sh defaults 90\""
   jq -c '.data[].publicip' /root/oracle/ip/iplist |  tr -d '"' | while read i; do
   test="${text1}$i ${text2}"
   echo -e  $test >> ip.sh 2>&1
