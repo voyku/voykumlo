@@ -111,7 +111,7 @@ function install_python() {
 }
 
 function availability_domain() {
-  sleep 10s
+  sleep 6s
   oci iam availability-domain list > /root/oracle/domain
   DOMAINA=$(cat /root/oracle/domain | jq .data[0].name | tr -d '"' )
   DOMAINB=$(cat /root/oracle/domain | jq .data[1].name | tr -d '"')
