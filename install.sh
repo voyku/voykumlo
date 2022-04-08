@@ -119,7 +119,7 @@ function availability_domain() {
   
   domain=$(cat /root/oracle/domain)
   B="name"
-  if [[ $user == *$B* ]]
+  if [[ $domain == *$B* ]]
   then  
   print_ok "—————————————— 获取availability-domain—————————————— "
   echo -e $DOMAINA
