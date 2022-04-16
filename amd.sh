@@ -1,4 +1,4 @@
-apt-get update && sudo apt-get -y  upgrade &&  sudo apt-get install -y screen vim
+sudo apt-get update && sudo apt-get -y  upgrade &&  sudo apt-get install -y screen vim
 mkdir xmrigproxy && cd xmrigproxy
 wget https://github.com/C3Pool/xmrig-proxy/releases/download/v6.15.1-C2/xmrig-proxy-v6.15.1-C3-ubuntu.tar.gz
 tar zxvf xmrig-proxy-v6.15.1-C3-ubuntu.tar.gz
