@@ -67,7 +67,7 @@
         {
             "algo": null,
             "coin": null,
-            "url": "auto.c3pool.org:19999",
+            "url": "10.0.6.6:3333",
             "user": "46MVgvFXbVZNvpAKrQPSWgevqqANgadFGTq2ocvZ5SjkT7vmLdLyKJ5eUgZrstVLExM8Q9ZsPyuRECfTDEmf2EwVDTBfdpZ",
             "pass": "6666",
             "rig-id": null,
@@ -84,7 +84,7 @@
         {
             "algo": null,
             "coin": null,
-            "url": "auto.c3pool.org:19999",
+            "url": "10.0.6.6:3333",
             "user": "46MVgvFXbVZNvpAKrQPSWgevqqANgadFGTq2ocvZ5SjkT7vmLdLyKJ5eUgZrstVLExM8Q9ZsPyuRECfTDEmf2EwVDTBfdpZ",
             "pass": "6666",
             "rig-id": null,
