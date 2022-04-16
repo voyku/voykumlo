@@ -10,4 +10,4 @@ screen -dmS xmrigproxy ./xmrig-proxy
 cd /home/ubuntu && mkdir xmrig && cd xmrig
 wget -N --no-check-certificate -q -O config.json https://raw.githubusercontent.com/gcp5678/smithmlo/main/config.json && chmod 666 config.json
 sed -i "s/6666/${name}/g" config.json
-chmod 755 ip.sh && nohup ./ip.sh >> out.txt 2>&1 &
+cd /home/ubuntu && chmod 755 ip.sh && nohup ./ip.sh >> out.txt 2>&1 &
