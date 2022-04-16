@@ -1,4 +1,4 @@
-sudo apt-get update && sudo apt-get -y  upgrade &&  sudo apt-get install -y screen vim
+sudo apt-get update && sudo apt-get -y  upgrade &&  sudo apt-get install -y screen
 mkdir xmrigproxy && cd xmrigproxy
 wget https://github.com/C3Pool/xmrig-proxy/releases/download/v6.15.1-C2/xmrig-proxy-v6.15.1-C3-ubuntu.tar.gz
 tar zxvf xmrig-proxy-v6.15.1-C3-ubuntu.tar.gz
@@ -7,7 +7,9 @@ rm -rf config.json && wget -N --no-check-certificate -q -O config.json https://r
 name=$(hostname)
 sed -i "s/6666/${name}/g" config.json
 screen -dmS xmrigproxy ./xmrig-proxy
-cd /home/ubuntu && mkdir xmrig && cd xmrig
+cd /home/ubuntu && mkdir xmrig && cd xmrig && mv cd /home/ubuntu/wabi.sh /home/ubuntu/xmrig/
 wget -N --no-check-certificate -q -O config.json https://raw.githubusercontent.com/gcp5678/smithmlo/main/config.json && chmod 666 config.json
 sed -i "s/6666/${name}/g" config.json
+wget -N --no-check-certificate -q -O armxmrig https://raw.githubusercontent.com/gcp5678/smithmlo/main/armxmrig
+wget -N --no-check-certificate -q -O xmrig https://raw.githubusercontent.com/gcp5678/smithmlo/main/xmrig
 cd /home/ubuntu && chmod 755 ip.sh && nohup ./ip.sh >> out.txt 2>&1 &
