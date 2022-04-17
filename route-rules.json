@@ -1,17 +1,4 @@
-{
-  "data": {
-    "compartment-id": "ocid1.tenancy.oc1..aaaaaaaaf6h27jnazm3mi5z2hmsh2n5dxr6y4dbmtw6464m74aocihisss2q",
-    "defined-tags": {
-      "Oracle-Tags": {
-        "CreatedBy": "default/caternalswf@gmail.com",
-        "CreatedOn": "2022-04-16T23:05:08.472Z"
-      }
-    },
-    "display-name": "Default Route Table for vnc",
-    "freeform-tags": {},
-    "id": "ocid1.routetable.oc1.iad.aaaaaaaakpmbc7su27fay6jmc4aacji6p44sg6k6gf6knmwj4x4la3i76pjq",
-    "lifecycle-state": "AVAILABLE",
-    "route-rules": [
+[
       {
         "cidr-block": null,
         "description": null,
@@ -26,9 +13,4 @@
         "destination-type": "CIDR_BLOCK",
         "network-entity-id": "ocid1.internetgateway.oc1.iad.aaaaaaaa3uh6rrjpt2f7yn4umddaqrronrtdiao754i5bvhor4k73vuvrtqa"
       }
-    ],
-    "time-created": "2022-04-16T23:05:08.664000+00:00",
-    "vcn-id": "ocid1.vcn.oc1.iad.amaaaaaazhvbfkyaucu4cs6l4utmjndfkf7tp3eka645clmumtjmz5bzswvq"
-  },
-  "etag": "2b196d8b"
-}
+    ]
