@@ -4,13 +4,13 @@
         "description": null,
         "destination": "0.0.0.0/0",
         "destination-type": "CIDR_BLOCK",
-        "network-entity-id": "ocid1.internetgateway.oc1.iad.aaaaaaaa3uh6rrjpt2f7yn4umddaqrronrtdiao754i5bvhor4k73vuvrtqa"
+        "network-entity-id": "xxx"
       },
       {
         "cidr-block": null,
         "description": null,
         "destination": "::/0",
         "destination-type": "CIDR_BLOCK",
-        "network-entity-id": "ocid1.internetgateway.oc1.iad.aaaaaaaa3uh6rrjpt2f7yn4umddaqrronrtdiao754i5bvhor4k73vuvrtqa"
+        "network-entity-id": "xxx"
       }
     ]
